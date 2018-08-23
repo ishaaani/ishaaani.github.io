@@ -1,0 +1,16 @@
+<b>here is the method code for finding the index of a number in an array</b
+
+  static int find (int [] numbers, int value){
+        // loop through the array
+        for (int i =0; i<numbers.length; i++){
+            // equate value to a number in the array
+            if (value == numbers[i]){
+                // this returns the INDEX of the number
+                return i;
+            }    
+        } 
+        // or else it will just return -1 bc that's not possible
+        return -1;
+    }
+ 
+}
